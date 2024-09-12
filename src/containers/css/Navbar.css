@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+#navbar{
+    color: hsla(20, 67%, 49%, 0.818);
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:black;
+    font-size: 40px;
+}
+#chatbot{
+    margin-left: 500px;
+    
+}
+#gasprices{
+    margin-left: 40px;
+}
+#Support{
+    margin-left: 40px;
+}
+#SignUp{
+    margin-left: 40px;
+}

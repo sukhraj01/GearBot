@@ -1,0 +1,39 @@
+.chatbot-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  #chatbotmain{
+    background-image: url(1371822-beautiful-car-wallpapers-1920x1080-1920x1080-for-android-tablet.jpg);
+    background-size: cover; /* width height */
+    font-size: large;
+  }
+  .chatbot-box {
+    width: 700px;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    padding: 20px;
+    overflow-y: scroll;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: black;
+    color: aliceblue;
+  }
+  .chatbot-box::-webkit-scrollbar {
+    width: 20px; /* Set the width of the scrollbar */
+  }
+  .chatbot-box::-webkit-scrollbar-track {
+    background-color: #4a4444; /* Set the background color of the track */
+  }
+  .chatbot-box::-webkit-scrollbar-thumb {
+    background-color: rgb(52, 47, 47); /* Set the color of the thumb */
+  }
+  .chatbot-box input {
+    width: calc(100% - 20px);
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
